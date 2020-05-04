@@ -1,4 +1,6 @@
-# shell scripts
+# homebrew shell scripts
+
+Tap for my [shell-scripts](https://github.com/rileytwo/shell-scripts) repo
 
 ## How do I install these formulae?
 `brew install rileytwo/shell-scripts/<formula>`
