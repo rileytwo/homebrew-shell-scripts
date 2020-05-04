@@ -1,4 +1,4 @@
-class BiSh < Formula
+class ZshupSh < Formula
   desc "Upgrade Oh-My-Zsh! custom plugins"
   homepage "https://github.com/rileytwo/shell-scripts"
   url "https://github.com/rileytwo/shell-scripts.git"

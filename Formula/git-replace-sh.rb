@@ -1,4 +1,4 @@
-class BiSh < Formula
+class GitReplaceSh < Formula
   desc "Utility for running `git replace` in multiple repositories at once"
   homepage "https://github.com/rileytwo/shell-scripts"
   url "https://github.com/rileytwo/shell-scripts.git"

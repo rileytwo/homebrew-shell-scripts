@@ -1,4 +1,4 @@
-class BiSh < Formula
+class PreviewSh < Formula
   desc "Interactively find and preview a file from the current directory"
   homepage "https://github.com/rileytwo/shell-scripts"
   url "https://github.com/rileytwo/shell-scripts.git"
