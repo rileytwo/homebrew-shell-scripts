@@ -5,6 +5,6 @@ class ZshupSh < Formula
   version "0.3.0"
 
   def install
-    bin.install "zshup.sh"
+    bin.install "bin/zshup.sh"
   end
 end
