@@ -1,7 +1,7 @@
 name: brew test-bot
 on:
   push:
-    branches: master
+    branches: main
   pull_request: []
 jobs:
   test-bot:
@@ -13,7 +13,7 @@ jobs:
         run: |
           set -e
           brew update
-          HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/rileytwo/homebrew-scripts"
+          HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/rileytwo/homebrew-shell-scripts"
           mkdir -p "$HOMEBREW_TAP_DIR"
           rm -rf "$HOMEBREW_TAP_DIR"
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
